@@ -94,7 +94,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700;800&display=swap"
             rel="stylesheet"
         />
 
@@ -106,18 +106,18 @@
     </head>
     <body style="height: 6000px">
         <!-- Header -->
-        <div class="header__top header__top--sticky">
+        <header class="header-top header-top--sticky">
             <!-- Logo -->
             <div class="container">
                 <div class="row">
-                    <div class="logo">
+                    <a href="/" class="logo">
                         <img
                             src="./assets/imgs/logo.svg"
                             alt="MODULARS"
                             class="logo__img"
                         />
                         <span class="logo__name">MODULARS</span>
-                    </div>
+                    </a>
 
                     <!-- Navigation -->
                     <nav class="nav">
@@ -133,7 +133,67 @@
                     <a href="#!" class="btn">Sign Up</a>
                 </div>
             </div>
-        </div>
+        </header>
+
+        <header class="header-hero">
+            <div class="container">
+                <div class="row hero-inner">
+                    <section class="hero__content">
+                        <h1
+                            class="hero__heading section__heading section__heading--fs"
+                        >
+                            We’re <br />
+                            a creative design agency.
+                        </h1>
+                        <p class="section__desc section__desc--fs">
+                            A brilliant, modular agency template for startup’s
+                            build yours toady.
+                        </p>
+                        <div class="row hero__cta">
+                            <a href="#!" class="btn">Get in touch</a>
+                            <div class="row hero__watch-video">
+                                <div class="hero__cta-btn--border">
+                                    <button class="hero__cta-btn">
+                                        <img
+                                            src="./assets/icons/play.svg"
+                                            alt=""
+                                        />
+                                    </button>
+                                </div>
+                                <span class="hero__cta-text">Watch Video</span>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="hero__img-group">
+                        <img
+                            src="./assets/imgs/hero-img-1.jpg"
+                            alt=""
+                            class="hero__img"
+                        />
+                        <img
+                            src="./assets/imgs/hero-img-2.jpg"
+                            alt=""
+                            class="hero__img hero__img--lower"
+                        />
+                        <img
+                            src="./assets/imgs/hero-img-3.jpg"
+                            alt=""
+                            class="hero__img"
+                        />
+                    </div>
+                    <img
+                        src="./assets/icons/decor-icon.svg"
+                        alt=""
+                        class="hero__icon-decor hero__icon-decor--top"
+                    />
+                    <img
+                        src="./assets/icons/decor-icon.svg"
+                        alt=""
+                        class="hero__icon-decor hero__icon-decor--bt"
+                    />
+                </div>
+            </div>
+        </header>
         <main></main>
         <footer></footer>
     </body>
