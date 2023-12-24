@@ -286,3 +286,55 @@ a {
 .hero__img--lower {
     transform: translateY(77px);
 }
+
+/* Clients */
+.client {
+    margin: 44px 0;
+}
+
+.client-inner {
+    background-color: var(--primary-color-light-green);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 99px;
+    padding: 76px 121px;
+}
+
+.client__item {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.client__name {
+    color: var(--primary-color-black-green);
+    line-height: normal;
+}
+
+.client__name--gg {
+    font-size: 3.1rem;
+    font-weight: 500;
+}
+
+.client__name--sl {
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.client__name--ag {
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.client__name--ri {
+    font-family: Sonsie One;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.client__name--he {
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 1.995px;
+}
