@@ -679,7 +679,7 @@ a {
 }
 
 .process-step:hover {
-    border: none;
+    border-bottom: 1px solid var(--primary-color-light-green);
     border-radius: 33px;
     cursor: pointer;
     background: var(--primary-color-light-green);
