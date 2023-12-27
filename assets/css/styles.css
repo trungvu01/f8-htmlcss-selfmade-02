@@ -1006,3 +1006,130 @@ a {
     padding-top: 16px;
     border-top: 1px solid #c4c4c4;
 }
+
+/* Footer */
+.footer {
+    padding: 72px 0 50px;
+    background-color: var(--primary-color-black-green);
+}
+
+.footer-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 45px;
+}
+
+.footer-inner::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        #143c3c 2.28%,
+        #295a5a 55.65%,
+        rgba(38, 82, 82, 0) 102.06%
+    );
+}
+
+.footer-left {
+    max-width: 45%;
+}
+
+.footer__heading {
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer__email-group {
+    margin: 9px 0 47px;
+    max-width: fit-content;
+    border-bottom: 1px solid #6a8383;
+}
+
+.footer__email-input,
+.footer__email-input::placeholder {
+    color: #6a8383;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 2.2rem; /* 100% */
+}
+
+.footer__email-input {
+    border: none;
+    outline: none;
+    padding: 16px 20px;
+    margin-left: -20px;
+    background-color: transparent;
+    font-weight: 500;
+    color: var(--primary-color-light-green);
+}
+
+.footer__email-icon {
+    transform: rotate(180deg);
+    color: #c4c4c4;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    column-gap: 22px;
+}
+
+.footer__social-item {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid #265252;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    transition-duration: 0.3s;
+}
+
+.footer__social-item:hover {
+    border-color: #a75325;
+    background-color: #a75325;
+}
+
+.footer-right {
+    display: flex;
+    max-width: fit-content;
+    column-gap: 50px;
+}
+
+.footer-column {
+    font-family: "Public Sans", sans-serif;
+}
+
+.footer-column__title {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.55; /* 155.556% */
+    margin-bottom: 6px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item {
+    color: #6a8383;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.25; /* 225% */
+}
+
+.footer-item:hover {
+    text-decoration: underline 1px;
+}
