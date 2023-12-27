@@ -957,14 +957,16 @@ a {
     display: flex;
     flex-direction: column;
     background: #fff;
-    padding: 26px 30px 12px;
+    padding: 26px 30px 12px 0;
     border-radius: 0 0 20px 20px;
     min-height: 234px;
+    transition-duration: 0.3s;
 }
 
 .blog-item:hover .blog-item__content,
 .blog-item__content:hover {
     box-shadow: 0px 12px 74px 0px rgba(91, 91, 91, 0.25);
+    padding: 26px 30px 12px;
 }
 
 .blog-item__btn {
